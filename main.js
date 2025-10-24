@@ -5,7 +5,7 @@ const getRendererEntry = () => {
   if (app.isPackaged) {
     return path.join(process.resourcesPath, "app", "dist", "index.html");
   }
-  return path.resolve(__dirname, "../frontend-web/dist/index.html");
+  return path.resolve(__dirname, "../web/dist/index.html");
 };
 
 const createWindow = () => {
