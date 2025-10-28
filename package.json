@@ -2,6 +2,7 @@
   "name": "@cygnus/frontend-windows",
   "version": "1.0.0",
   "description": "Aplicación de escritorio para Cygnus.",
+  "author": "Nicolas Panaino",
   "main": "main.js",
   "private": true,
   "scripts": {

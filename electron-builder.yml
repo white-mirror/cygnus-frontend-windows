@@ -2,9 +2,11 @@ appId: com.cygnus.desktop
 productName: Cygnus
 directories:
   output: dist
+  buildResources: build
 extraResources:
   - from: ../web/dist
     to: app/dist
 win:
+  icon: build/logo.ico
   target:
     - nsis
